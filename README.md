@@ -18,6 +18,8 @@ Execute o scrito de preferencia no linux ou MacOs: sh terraform/deploy.sh , por 
 
 ### Configurando o Cluster
 
+Antes de tudo deve criar o Key Pairs no aws, que fica na sessao do EC2. E trocar de acordo com o nome do key criado na variaveis
+
 Lembrando que o terraform tem output do ips publicos que serao manager e os ips privadores os nos
 
 Edite o arquivo ansible/hosts substituido de acordo com o output do terraform
